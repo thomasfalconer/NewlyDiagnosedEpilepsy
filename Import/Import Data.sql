@@ -1,0 +1,1 @@
+SELECT * FROM @workDatabaseSchema.[newly_diagnosed_epilepsy_cohort_with_covariates] ORDER BY person_id
