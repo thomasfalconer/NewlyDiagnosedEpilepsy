@@ -64,7 +64,7 @@ dataframe <- DatabaseConnector::querySql(conn, sql3)
 # all column names to lower case
 names(dataframe) <- tolower(names(dataframe))
 
-# save all below output to a txt file called 'NDE analysis output' in your working directory 
+# save all below output to a txt file called 'NDE analysis output' to this study directory
 sink("NDE analysis output.txt", split = TRUE)
 
 
